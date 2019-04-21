@@ -1,0 +1,33 @@
+appliance:
+  # an example of commercial product
+  - name: light1
+    type: Light
+    topic: cmnd/sonoff1/POWER
+    locationX: 5800
+    locationY: 0
+    locationZ: 2390
+
+  - name: soundModule
+    type: SoundModule
+    topic: music
+    locationX: 5000
+    locationY: 5000
+    locationZ: 1000
+
+
+  - name: lightSoundStrip
+    type: LightSoundStrip
+    topic: SoundLight
+    locationX: 0
+    locationY: 0
+    locationZ: 0
+
+
+#  # an example of customized appliance
+#  - name: lightStrip
+#    type: LightStrip
+#    topic: lightStrip
+#    locationX: -1000
+#    locationY: 1000
+#    locationZ: 1000
+#

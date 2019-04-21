@@ -1,0 +1,3 @@
+rootProject.name = 'minuet_thesis'
+include 'main'
+

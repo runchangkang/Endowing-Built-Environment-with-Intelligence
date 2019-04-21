@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+}
+
+group 'edu.cmu.runchank.minuet'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    mavenCentral()
+    mavenLocal()
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compile 'com.fazecast:jSerialComm:[2.0.0,3.0.0)'
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-math3
+    compile group: 'org.apache.commons', name: 'commons-math3', version: '3.2'
+    // https://mvnrepository.com/artifact/org.eclipse.paho/org.eclipse.paho.client.mqttv3
+    compile group: 'org.eclipse.paho', name: 'org.eclipse.paho.client.mqttv3', version: '1.0.2'
+    compile group: 'com.rm5248', name: 'JavaSerial', version: '0.9'
+    compile 'com.google.cloud:google-cloud-speech:0.49.0-alpha'
+    compile 'com.google.cloud:google-cloud-language:1.35.0'
+    // https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable
+    compile group: 'nz.ac.waikato.cms.weka', name: 'weka-stable', version: '3.8.0'
+    // https://mvnrepository.com/artifact/org.knowm.xchart/xchart
+    compile group: 'org.knowm.xchart', name: 'xchart', version: '3.5.2'
+    // https://mvnrepository.com/artifact/com.opencsv/opencsv
+    compile group: 'com.opencsv', name: 'opencsv', version: '3.7'
+
+    compile 'se.michaelthelin.spotify:spotify-web-api-java:2.0.3'
+
+    // https://mvnrepository.com/artifact/com.1stleg/jnativehook
+    compile group: 'com.1stleg', name: 'jnativehook', version: '2.0.2'
+
+    // https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp
+//    compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.9.1'
+    compile 'edu.stanford.nlp:stanford-corenlp:3.9.1'
+    compile 'edu.stanford.nlp:stanford-corenlp:3.9.1:models'
+    compile "org.slf4j:slf4j-api:1.6.1"
+    compile "org.slf4j:slf4j-simple:1.6.1"
+
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

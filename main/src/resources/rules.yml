@@ -1,0 +1,32 @@
+plugins:
+  - name: light1
+    functions:
+      proximity:
+        distance: "3"
+        inRange: turn on
+        outRange: turn off
+  - name: soundModule
+    functions:
+      follow:
+        followingCommand: followingY
+
+  - name: lightSoundStrip
+    functions:
+      specialZone:
+        inRange: start
+        outRange: stop
+        maxX: "6000"
+        minX: "3000"
+        maxY: "7000"
+        minY: "0"
+
+
+#  - name: lightStrip
+#    functions:
+#      follow:
+#        followingCommand: "5"
+#  - name: lightStrip
+#    functions:
+#      movement:
+#        moving: "4"
+#        stable: "0"

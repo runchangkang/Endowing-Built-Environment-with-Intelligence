@@ -1,0 +1,30 @@
+plugins:
+  - name: light1
+    functions:
+      proximity:
+        distance: 3
+        inRange: turn on
+        outRange: turn off
+  - name: lightStrip
+    functions:
+      follow:
+        followingCommand: xx
+  - name: musicPlayer
+    functions:
+      specialZone:
+        inRange: play
+        outRange: stop
+        maxX: 3000
+        minX: 3000
+        maxY: 3000
+        minY: 3000
+  - name: roomba
+    functions:
+      movement:
+        moving: stop
+        stable: start
+
+
+
+
+

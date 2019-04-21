@@ -1,0 +1,2245 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     train4f
+Instances:    1254
+Attributes:   91
+              ax0
+              ay0
+              az0
+              gx0
+              gy0
+              gz0
+              ax1
+              ay1
+              az1
+              gx1
+              gy1
+              gz1
+              ax2
+              ay2
+              az2
+              gx2
+              gy2
+              gz2
+              ax3
+              ay3
+              az3
+              gx3
+              gy3
+              gz3
+              ax4
+              ay4
+              az4
+              gx4
+              gy4
+              gz4
+              ax5
+              ay5
+              az5
+              gx5
+              gy5
+              gz5
+              ax6
+              ay6
+              az6
+              gx6
+              gy6
+              gz6
+              ax7
+              ay7
+              az7
+              gx7
+              gy7
+              gz7
+              ax8
+              ay8
+              az8
+              gx8
+              gy8
+              gz8
+              ax9
+              ay9
+              az9
+              gx9
+              gy9
+              gz9
+              ax10
+              ay10
+              az10
+              gx10
+              gy10
+              gz10
+              ax11
+              ay11
+              az11
+              gx11
+              gy11
+              gz11
+              ax12
+              ay12
+              az12
+              gx12
+              gy12
+              gz12
+              ax13
+              ay13
+              az13
+              gx13
+              gy13
+              gz13
+              ax14
+              ay14
+              az14
+              gx14
+              gy14
+              gz14
+              label
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: leftSwap, rightSwap
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.738  * (normalized) ax0
+ +      -0.3517 * (normalized) ay0
+ +       0.8983 * (normalized) az0
+ +       0.0105 * (normalized) gx0
+ +       0.4437 * (normalized) gy0
+ +      -0.0131 * (normalized) gz0
+ +      -0.3002 * (normalized) ax1
+ +      -0.2019 * (normalized) ay1
+ +       0.8317 * (normalized) az1
+ +       0.2795 * (normalized) gx1
+ +      -1.1396 * (normalized) gy1
+ +      -0.4776 * (normalized) gz1
+ +      -0.105  * (normalized) ax2
+ +       0.0081 * (normalized) ay2
+ +       0.662  * (normalized) az2
+ +       0.0132 * (normalized) gx2
+ +      -1.3555 * (normalized) gy2
+ +      -0.5191 * (normalized) gz2
+ +       0.2021 * (normalized) ax3
+ +      -0.1532 * (normalized) ay3
+ +      -0.0458 * (normalized) az3
+ +      -0.1171 * (normalized) gx3
+ +      -1.4111 * (normalized) gy3
+ +      -0.5309 * (normalized) gz3
+ +       0.368  * (normalized) ax4
+ +      -0.1543 * (normalized) ay4
+ +      -0.3125 * (normalized) az4
+ +      -0.1284 * (normalized) gx4
+ +      -1.5268 * (normalized) gy4
+ +      -0.4029 * (normalized) gz4
+ +       0.3655 * (normalized) ax5
+ +      -0.1764 * (normalized) ay5
+ +      -0.4683 * (normalized) az5
+ +       0.0653 * (normalized) gx5
+ +      -1.2055 * (normalized) gy5
+ +      -0.1588 * (normalized) gz5
+ +      -0.4634 * (normalized) ax6
+ +      -0.0678 * (normalized) ay6
+ +       0.1185 * (normalized) az6
+ +      -0.3931 * (normalized) gx6
+ +      -0.2607 * (normalized) gy6
+ +       0.1613 * (normalized) gz6
+ +       0.1261 * (normalized) ax7
+ +      -0.333  * (normalized) ay7
+ +      -0.1853 * (normalized) az7
+ +       0.0115 * (normalized) gx7
+ +      -0.3639 * (normalized) gy7
+ +      -0.0892 * (normalized) gz7
+ +       0.5234 * (normalized) ax8
+ +       0.058  * (normalized) ay8
+ +      -0.3594 * (normalized) az8
+ +       0.0913 * (normalized) gx8
+ +      -0.0216 * (normalized) gy8
+ +      -0.2188 * (normalized) gz8
+ +      -0.1236 * (normalized) ax9
+ +       0.0897 * (normalized) ay9
+ +      -0.1689 * (normalized) az9
+ +       0.005  * (normalized) gx9
+ +       0.3666 * (normalized) gy9
+ +       0.0834 * (normalized) gz9
+ +      -0.1835 * (normalized) ax10
+ +      -0.0459 * (normalized) ay10
+ +      -0.0717 * (normalized) az10
+ +      -0.1292 * (normalized) gx10
+ +       0.2842 * (normalized) gy10
+ +       0.0777 * (normalized) gz10
+ +      -0.2042 * (normalized) ax11
+ +      -0.0019 * (normalized) ay11
+ +      -0.1459 * (normalized) az11
+ +      -0.1138 * (normalized) gx11
+ +       0.3264 * (normalized) gy11
+ +       0.0012 * (normalized) gz11
+ +      -0.1366 * (normalized) ax12
+ +      -0.0702 * (normalized) ay12
+ +      -0.1612 * (normalized) az12
+ +      -0.0575 * (normalized) gx12
+ +       0.3006 * (normalized) gy12
+ +      -0.0108 * (normalized) gz12
+ +      -0.1399 * (normalized) ax13
+ +       0.0039 * (normalized) ay13
+ +      -0.1708 * (normalized) az13
+ +      -0.0776 * (normalized) gx13
+ +       0.2685 * (normalized) gy13
+ +       0.0455 * (normalized) gz13
+ +      -0.0984 * (normalized) ax14
+ +       0.0558 * (normalized) ay14
+ +      -0.1647 * (normalized) az14
+ +      -0.2004 * (normalized) gx14
+ +       0.3172 * (normalized) gy14
+ +       0.0081 * (normalized) gz14
+ +       4.7552
+
+Number of kernel evaluations: 2303 (85.028% cached)
+
+Classifier for classes: leftSwap, upSwap
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2775 * (normalized) ax0
+ +       0.3831 * (normalized) ay0
+ +      -0.8417 * (normalized) az0
+ +       2.465  * (normalized) gx0
+ +       1.1094 * (normalized) gy0
+ +       0.3869 * (normalized) gz0
+ +       0.1361 * (normalized) ax1
+ +       0.0752 * (normalized) ay1
+ +       0.295  * (normalized) az1
+ +       1.8069 * (normalized) gx1
+ +       0.9536 * (normalized) gy1
+ +       0.5068 * (normalized) gz1
+ +      -0.2583 * (normalized) ax2
+ +       0.9622 * (normalized) ay2
+ +       0.4414 * (normalized) az2
+ +       1.1437 * (normalized) gx2
+ +       0.8706 * (normalized) gy2
+ +       0.9144 * (normalized) gz2
+ +       0.1167 * (normalized) ax3
+ +       0.7652 * (normalized) ay3
+ +       0.0898 * (normalized) az3
+ +      -0.1253 * (normalized) gx3
+ +       0.1954 * (normalized) gy3
+ +       1.1984 * (normalized) gz3
+ +      -0.2389 * (normalized) ax4
+ +      -0.0413 * (normalized) ay4
+ +      -0.3938 * (normalized) az4
+ +      -0.6833 * (normalized) gx4
+ +       0.151  * (normalized) gy4
+ +       0.8464 * (normalized) gz4
+ +      -0.3955 * (normalized) ax5
+ +      -0.3845 * (normalized) ay5
+ +      -0.3329 * (normalized) az5
+ +      -0.196  * (normalized) gx5
+ +       0.309  * (normalized) gy5
+ +       0.2396 * (normalized) gz5
+ +      -0.5659 * (normalized) ax6
+ +      -0.0379 * (normalized) ay6
+ +       0.2445 * (normalized) az6
+ +      -0.1178 * (normalized) gx6
+ +       0.1858 * (normalized) gy6
+ +       0.1927 * (normalized) gz6
+ +      -0.2566 * (normalized) ax7
+ +      -0.2448 * (normalized) ay7
+ +      -0.0862 * (normalized) az7
+ +       0.6151 * (normalized) gx7
+ +      -0.1054 * (normalized) gy7
+ +       0.3682 * (normalized) gz7
+ +       0.1849 * (normalized) ax8
+ +      -0.0448 * (normalized) ay8
+ +      -0.2693 * (normalized) az8
+ +       0.2933 * (normalized) gx8
+ +      -0.3091 * (normalized) gy8
+ +       0.0741 * (normalized) gz8
+ +      -0.3061 * (normalized) ax9
+ +       0.3816 * (normalized) ay9
+ +      -0.317  * (normalized) az9
+ +       0.1464 * (normalized) gx9
+ +       0.0922 * (normalized) gy9
+ +       0.2016 * (normalized) gz9
+ +      -0.2778 * (normalized) ax10
+ +      -0.2478 * (normalized) ay10
+ +       0.0393 * (normalized) az10
+ +      -0.0851 * (normalized) gx10
+ +       0.6674 * (normalized) gy10
+ +       0.1823 * (normalized) gz10
+ +      -0.5977 * (normalized) ax11
+ +      -0.4702 * (normalized) ay11
+ +       0.2838 * (normalized) az11
+ +      -0.0354 * (normalized) gx11
+ +       0.2009 * (normalized) gy11
+ +      -0.0695 * (normalized) gz11
+ +      -0.1146 * (normalized) ax12
+ +      -0.1545 * (normalized) ay12
+ +       0.0951 * (normalized) az12
+ +      -0.0956 * (normalized) gx12
+ +      -0.4432 * (normalized) gy12
+ +      -0.3913 * (normalized) gz12
+ +       0.0908 * (normalized) ax13
+ +      -0.111  * (normalized) ay13
+ +       0.0907 * (normalized) az13
+ +      -0.104  * (normalized) gx13
+ +      -0.4994 * (normalized) gy13
+ +      -0.4486 * (normalized) gz13
+ +       0.041  * (normalized) ax14
+ +      -0.2176 * (normalized) ay14
+ +       0.1959 * (normalized) az14
+ +      -0.1445 * (normalized) gx14
+ +      -0.5451 * (normalized) gy14
+ +      -0.535  * (normalized) gz14
+ -       4.7707
+
+Number of kernel evaluations: 2843 (83.88% cached)
+
+Classifier for classes: leftSwap, downSwap
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.6604 * (normalized) ax0
+ +      -0.0879 * (normalized) ay0
+ +      -0.4837 * (normalized) az0
+ +      -0.8914 * (normalized) gx0
+ +      -0.3208 * (normalized) gy0
+ +       0.0861 * (normalized) gz0
+ +      -0.961  * (normalized) ax1
+ +      -0.6039 * (normalized) ay1
+ +       0.087  * (normalized) az1
+ +      -0.9638 * (normalized) gx1
+ +      -0.1149 * (normalized) gy1
+ +      -0.6373 * (normalized) gz1
+ +      -0.8124 * (normalized) ax2
+ +       0.084  * (normalized) ay2
+ +       0.0014 * (normalized) az2
+ +      -1.2657 * (normalized) gx2
+ +       0.0473 * (normalized) gy2
+ +      -1.6129 * (normalized) gz2
+ +      -0.2212 * (normalized) ax3
+ +      -0.4204 * (normalized) ay3
+ +      -0.342  * (normalized) az3
+ +      -0.3126 * (normalized) gx3
+ +       0.3725 * (normalized) gy3
+ +      -1.7728 * (normalized) gz3
+ +      -0.1544 * (normalized) ax4
+ +       0.3414 * (normalized) ay4
+ +       0.3617 * (normalized) az4
+ +       0.065  * (normalized) gx4
+ +       0.2671 * (normalized) gy4
+ +      -1.0232 * (normalized) gz4
+ +       0.0337 * (normalized) ax5
+ +       0.4028 * (normalized) ay5
+ +       1.017  * (normalized) az5
+ +       0.2482 * (normalized) gx5
+ +      -0.0848 * (normalized) gy5
+ +      -0.3485 * (normalized) gz5
+ +       0.0162 * (normalized) ax6
+ +       0.4216 * (normalized) ay6
+ +       0.705  * (normalized) az6
+ +       0.2127 * (normalized) gx6
+ +       0.0435 * (normalized) gy6
+ +       0.1691 * (normalized) gz6
+ +      -0.3263 * (normalized) ax7
+ +      -0.1119 * (normalized) ay7
+ +       0.1038 * (normalized) az7
+ +       0.2119 * (normalized) gx7
+ +      -0.1576 * (normalized) gy7
+ +       0.3716 * (normalized) gz7
+ +      -0.1314 * (normalized) ax8
+ +       0.2416 * (normalized) ay8
+ +      -0.0734 * (normalized) az8
+ +       0.2575 * (normalized) gx8
+ +      -0.4278 * (normalized) gy8
+ +       0.3627 * (normalized) gz8
+ +      -0.2113 * (normalized) ax9
+ +       0.4941 * (normalized) ay9
+ +       0.0212 * (normalized) az9
+ +       0.248  * (normalized) gx9
+ +      -0.2843 * (normalized) gy9
+ +       0.2765 * (normalized) gz9
+ +      -0.0668 * (normalized) ax10
+ +       0.3337 * (normalized) ay10
+ +      -0.0731 * (normalized) az10
+ +       0.2147 * (normalized) gx10
+ +      -0.2122 * (normalized) gy10
+ +       0.2648 * (normalized) gz10
+ +      -0.0216 * (normalized) ax11
+ +       0.309  * (normalized) ay11
+ +      -0.0297 * (normalized) az11
+ +       0.1966 * (normalized) gx11
+ +      -0.2136 * (normalized) gy11
+ +       0.2658 * (normalized) gz11
+ +      -0.0215 * (normalized) ax12
+ +       0.3374 * (normalized) ay12
+ +      -0.0577 * (normalized) az12
+ +       0.0087 * (normalized) gx12
+ +      -0.152  * (normalized) gy12
+ +       0.2669 * (normalized) gz12
+ +       0.0109 * (normalized) ax13
+ +       0.1314 * (normalized) ay13
+ +      -0.0089 * (normalized) az13
+ +       0.0445 * (normalized) gx13
+ +      -0.1802 * (normalized) gy13
+ +       0.281  * (normalized) gz13
+ +       0.048  * (normalized) ax14
+ +       0.2923 * (normalized) ay14
+ +      -0.0135 * (normalized) az14
+ +      -0.0263 * (normalized) gx14
+ +      -0.1581 * (normalized) gy14
+ +       0.3154 * (normalized) gz14
+ +       3.1303
+
+Number of kernel evaluations: 2663 (83.757% cached)
+
+Classifier for classes: leftSwap, circleCW
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.3627 * (normalized) ax0
+ +       0.3395 * (normalized) ay0
+ +       0.3839 * (normalized) az0
+ +      -0.519  * (normalized) gx0
+ +       0.8965 * (normalized) gy0
+ +      -0.5404 * (normalized) gz0
+ +      -0.9418 * (normalized) ax1
+ +       0.3952 * (normalized) ay1
+ +       0.0422 * (normalized) az1
+ +      -0.6057 * (normalized) gx1
+ +      -0.0675 * (normalized) gy1
+ +      -0.7552 * (normalized) gz1
+ +      -0.6442 * (normalized) ax2
+ +       0.3512 * (normalized) ay2
+ +       0.2802 * (normalized) az2
+ +      -0.8707 * (normalized) gx2
+ +      -0.5102 * (normalized) gy2
+ +      -0.5898 * (normalized) gz2
+ +      -0.3299 * (normalized) ax3
+ +       0.3822 * (normalized) ay3
+ +       0.0987 * (normalized) az3
+ +      -0.5338 * (normalized) gx3
+ +      -0.3464 * (normalized) gy3
+ +      -0.4075 * (normalized) gz3
+ +      -0.3703 * (normalized) ax4
+ +       0.2984 * (normalized) ay4
+ +       0.086  * (normalized) az4
+ +      -0.4348 * (normalized) gx4
+ +      -0.6576 * (normalized) gy4
+ +      -0.1108 * (normalized) gz4
+ +      -0.3761 * (normalized) ax5
+ +       0.239  * (normalized) ay5
+ +      -0.1562 * (normalized) az5
+ +      -0.7254 * (normalized) gx5
+ +      -0.4183 * (normalized) gy5
+ +      -0.0404 * (normalized) gz5
+ +      -0.6782 * (normalized) ax6
+ +       0.4287 * (normalized) ay6
+ +      -0.1589 * (normalized) az6
+ +      -0.7307 * (normalized) gx6
+ +       0.1226 * (normalized) gy6
+ +      -0.1625 * (normalized) gz6
+ +      -0.3608 * (normalized) ax7
+ +       0.4693 * (normalized) ay7
+ +      -0.1182 * (normalized) az7
+ +      -0.1038 * (normalized) gx7
+ +      -0.1686 * (normalized) gy7
+ +       0.1246 * (normalized) gz7
+ +      -0.0507 * (normalized) ax8
+ +       0.3692 * (normalized) ay8
+ +      -0.2024 * (normalized) az8
+ +      -0.1531 * (normalized) gx8
+ +      -0.1368 * (normalized) gy8
+ +       0.0964 * (normalized) gz8
+ +      -0.1522 * (normalized) ax9
+ +       0.136  * (normalized) ay9
+ +      -0.2453 * (normalized) az9
+ +      -0.0553 * (normalized) gx9
+ +       0.0148 * (normalized) gy9
+ +       0.1752 * (normalized) gz9
+ +      -0.1241 * (normalized) ax10
+ +       0.14   * (normalized) ay10
+ +      -0.1741 * (normalized) az10
+ +      -0.0865 * (normalized) gx10
+ +       0.0658 * (normalized) gy10
+ +       0.041  * (normalized) gz10
+ +      -0.1397 * (normalized) ax11
+ +       0.2342 * (normalized) ay11
+ +      -0.1066 * (normalized) az11
+ +      -0.022  * (normalized) gx11
+ +       0.1576 * (normalized) gy11
+ +       0.0277 * (normalized) gz11
+ +      -0.0853 * (normalized) ax12
+ +       0.2917 * (normalized) ay12
+ +      -0.1221 * (normalized) az12
+ +      -0.0166 * (normalized) gx12
+ +       0.1653 * (normalized) gy12
+ +       0.0354 * (normalized) gz12
+ +      -0.0956 * (normalized) ax13
+ +       0.2699 * (normalized) ay13
+ +      -0.0982 * (normalized) az13
+ +      -0.0171 * (normalized) gx13
+ +       0.1427 * (normalized) gy13
+ +       0.0144 * (normalized) gz13
+ +      -0.0847 * (normalized) ax14
+ +       0.3012 * (normalized) ay14
+ +      -0.0869 * (normalized) az14
+ +      -0.0074 * (normalized) gx14
+ +       0.1236 * (normalized) gy14
+ +       0.024  * (normalized) gz14
+ +       4.783 
+
+Number of kernel evaluations: 3040 (88.442% cached)
+
+Classifier for classes: leftSwap, circleCCW
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.1009 * (normalized) ax0
+ +      -0.3455 * (normalized) ay0
+ +       0.5848 * (normalized) az0
+ +       0.1765 * (normalized) gx0
+ +       0.1758 * (normalized) gy0
+ +      -0.8174 * (normalized) gz0
+ +      -0.7618 * (normalized) ax1
+ +       0.0856 * (normalized) ay1
+ +       0.1723 * (normalized) az1
+ +       0.2143 * (normalized) gx1
+ +      -0.1445 * (normalized) gy1
+ +      -0.6528 * (normalized) gz1
+ +      -0.867  * (normalized) ax2
+ +       0.127  * (normalized) ay2
+ +       0.072  * (normalized) az2
+ +      -0.1303 * (normalized) gx2
+ +      -0.6281 * (normalized) gy2
+ +      -0.4706 * (normalized) gz2
+ +      -0.301  * (normalized) ax3
+ +      -0.0329 * (normalized) ay3
+ +       0.0943 * (normalized) az3
+ +      -0.0368 * (normalized) gx3
+ +      -0.3716 * (normalized) gy3
+ +      -0.1014 * (normalized) gz3
+ +      -0.4891 * (normalized) ax4
+ +      -0.1388 * (normalized) ay4
+ +      -0.2199 * (normalized) az4
+ +      -0.1373 * (normalized) gx4
+ +      -0.6091 * (normalized) gy4
+ +      -0.1929 * (normalized) gz4
+ +      -0.4495 * (normalized) ax5
+ +      -0.2042 * (normalized) ay5
+ +      -0.282  * (normalized) az5
+ +       0.3431 * (normalized) gx5
+ +      -0.3826 * (normalized) gy5
+ +      -0.1248 * (normalized) gz5
+ +      -1.1021 * (normalized) ax6
+ +       0.0515 * (normalized) ay6
+ +      -0.0568 * (normalized) az6
+ +       0.0165 * (normalized) gx6
+ +       0.3132 * (normalized) gy6
+ +       0.0241 * (normalized) gz6
+ +      -0.5673 * (normalized) ax7
+ +       0.0524 * (normalized) ay7
+ +       0.1274 * (normalized) az7
+ +       0.6337 * (normalized) gx7
+ +      -0.4011 * (normalized) gy7
+ +       0.4699 * (normalized) gz7
+ +       0.0501 * (normalized) ax8
+ +      -0.4744 * (normalized) ay8
+ +      -0.0564 * (normalized) az8
+ +       0.2989 * (normalized) gx8
+ +       0.0482 * (normalized) gy8
+ +       0.2386 * (normalized) gz8
+ +      -0.2801 * (normalized) ax9
+ +       0.0558 * (normalized) ay9
+ +       0.2819 * (normalized) az9
+ +       0.2011 * (normalized) gx9
+ +       0.2254 * (normalized) gy9
+ +       0.2056 * (normalized) gz9
+ +      -0.1398 * (normalized) ax10
+ +      -0.2568 * (normalized) ay10
+ +       0.2589 * (normalized) az10
+ +       0.1483 * (normalized) gx10
+ +      -0.0052 * (normalized) gy10
+ +       0.0653 * (normalized) gz10
+ +      -0.1614 * (normalized) ax11
+ +      -0.1255 * (normalized) ay11
+ +       0.0764 * (normalized) az11
+ +       0.1156 * (normalized) gx11
+ +       0.0082 * (normalized) gy11
+ +      -0.0332 * (normalized) gz11
+ +      -0.1    * (normalized) ax12
+ +      -0.0904 * (normalized) ay12
+ +       0.1402 * (normalized) az12
+ +       0.0408 * (normalized) gx12
+ +       0.0404 * (normalized) gy12
+ +       0.0262 * (normalized) gz12
+ +      -0.0785 * (normalized) ax13
+ +      -0.0334 * (normalized) ay13
+ +       0.0621 * (normalized) az13
+ +       0.0329 * (normalized) gx13
+ +      -0.0174 * (normalized) gy13
+ +       0.0322 * (normalized) gz13
+ +      -0.0707 * (normalized) ax14
+ +      -0.0239 * (normalized) ay14
+ +       0.0257 * (normalized) az14
+ +       0.0046 * (normalized) gx14
+ +       0.0031 * (normalized) gy14
+ +       0.0485 * (normalized) gz14
+ +       4.5365
+
+Number of kernel evaluations: 2074 (81.677% cached)
+
+Classifier for classes: leftSwap, noInteraction
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.7761 * (normalized) ax0
+ +       0.0526 * (normalized) ay0
+ +      -0.5719 * (normalized) az0
+ +      -0.6514 * (normalized) gx0
+ +       0.6976 * (normalized) gy0
+ +      -0.3245 * (normalized) gz0
+ +      -0.6117 * (normalized) ax1
+ +      -0.5051 * (normalized) ay1
+ +       1.7609 * (normalized) az1
+ +      -0.5458 * (normalized) gx1
+ +       0.0068 * (normalized) gy1
+ +      -0.097  * (normalized) gz1
+ +       0.7421 * (normalized) ax2
+ +      -0.0696 * (normalized) ay2
+ +       1.4809 * (normalized) az2
+ +      -0.4495 * (normalized) gx2
+ +      -1.7683 * (normalized) gy2
+ +      -0.7273 * (normalized) gz2
+ +       1.4576 * (normalized) ax3
+ +      -0.3393 * (normalized) ay3
+ +       1.074  * (normalized) az3
+ +      -0.3874 * (normalized) gx3
+ +      -1.6743 * (normalized) gy3
+ +      -0.6662 * (normalized) gz3
+ +       1.4625 * (normalized) ax4
+ +      -0.4005 * (normalized) ay4
+ +       0.5427 * (normalized) az4
+ +      -0.0333 * (normalized) gx4
+ +      -1.5339 * (normalized) gy4
+ +      -0.4617 * (normalized) gz4
+ +       0.4386 * (normalized) ax5
+ +      -0.4499 * (normalized) ay5
+ +       0.3021 * (normalized) az5
+ +       0.3012 * (normalized) gx5
+ +       0.42   * (normalized) gy5
+ +       0.1402 * (normalized) gz5
+ +      -0.7908 * (normalized) ax6
+ +      -0.041  * (normalized) ay6
+ +       0.7877 * (normalized) az6
+ +       0.4452 * (normalized) gx6
+ +       0.7473 * (normalized) gy6
+ +       0.4359 * (normalized) gz6
+ +      -0.383  * (normalized) ax7
+ +      -0.0308 * (normalized) ay7
+ +       0.2235 * (normalized) az7
+ +       0.155  * (normalized) gx7
+ +      -0.5685 * (normalized) gy7
+ +       0.127  * (normalized) gz7
+ +       0.1258 * (normalized) ax8
+ +      -0.1893 * (normalized) ay8
+ +      -0.2414 * (normalized) az8
+ +      -0.0278 * (normalized) gx8
+ +      -0.3119 * (normalized) gy8
+ +      -0.0317 * (normalized) gz8
+ +      -0.4488 * (normalized) ax9
+ +       0.2092 * (normalized) ay9
+ +       0.2123 * (normalized) az9
+ +       0.1266 * (normalized) gx9
+ +      -0.1551 * (normalized) gy9
+ +       0.2086 * (normalized) gz9
+ +      -0.6631 * (normalized) ax10
+ +      -0.2726 * (normalized) ay10
+ +       0.1153 * (normalized) az10
+ +      -0.1503 * (normalized) gx10
+ +      -0.1689 * (normalized) gy10
+ +      -0.0421 * (normalized) gz10
+ +      -0.8021 * (normalized) ax11
+ +       0.0799 * (normalized) ay11
+ +      -0.1777 * (normalized) az11
+ +       0.0975 * (normalized) gx11
+ +      -0.363  * (normalized) gy11
+ +      -0.1549 * (normalized) gz11
+ +      -0.4723 * (normalized) ax12
+ +       0.0636 * (normalized) ay12
+ +      -0.0524 * (normalized) az12
+ +       0.116  * (normalized) gx12
+ +      -0.5443 * (normalized) gy12
+ +      -0.2957 * (normalized) gz12
+ +      -0.3801 * (normalized) ax13
+ +       0.0443 * (normalized) ay13
+ +       0.003  * (normalized) az13
+ +       0.093  * (normalized) gx13
+ +      -0.4686 * (normalized) gy13
+ +       0.0682 * (normalized) gz13
+ +      -0.7558 * (normalized) ax14
+ +       0.3311 * (normalized) ay14
+ +       0.0417 * (normalized) az14
+ +      -0.1649 * (normalized) gx14
+ +      -0.323  * (normalized) gy14
+ +       0.4068 * (normalized) gz14
+ +       4.2821
+
+Number of kernel evaluations: 34037 (73.253% cached)
+
+Classifier for classes: rightSwap, upSwap
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1318 * (normalized) ax0
+ +       0.4118 * (normalized) ay0
+ +      -0.4528 * (normalized) az0
+ +       0.6638 * (normalized) gx0
+ +       0.224  * (normalized) gy0
+ +      -0.0744 * (normalized) gz0
+ +       0.3265 * (normalized) ax1
+ +       0.1193 * (normalized) ay1
+ +      -0.6322 * (normalized) az1
+ +       0.3246 * (normalized) gx1
+ +       0.9869 * (normalized) gy1
+ +       0.5555 * (normalized) gz1
+ +       0.0391 * (normalized) ax2
+ +       0.2526 * (normalized) ay2
+ +      -0.5066 * (normalized) az2
+ +       0.2274 * (normalized) gx2
+ +       0.9645 * (normalized) gy2
+ +       0.5318 * (normalized) gz2
+ +      -0.1837 * (normalized) ax3
+ +       0.1047 * (normalized) ay3
+ +       0.0203 * (normalized) az3
+ +       0.2516 * (normalized) gx3
+ +       1.1158 * (normalized) gy3
+ +       0.5063 * (normalized) gz3
+ +      -0.3441 * (normalized) ax4
+ +       0.1195 * (normalized) ay4
+ +       0.1471 * (normalized) az4
+ +       0.1826 * (normalized) gx4
+ +       0.9231 * (normalized) gy4
+ +       0.5709 * (normalized) gz4
+ +      -0.3649 * (normalized) ax5
+ +       0.4044 * (normalized) ay5
+ +       0.3618 * (normalized) az5
+ +       0.0254 * (normalized) gx5
+ +       0.7118 * (normalized) gy5
+ +       0.2734 * (normalized) gz5
+ +      -0.2075 * (normalized) ax6
+ +      -0.187  * (normalized) ay6
+ +       0.2823 * (normalized) az6
+ +       0.0046 * (normalized) gx6
+ +       0.6677 * (normalized) gy6
+ +       0.1986 * (normalized) gz6
+ +      -0.2221 * (normalized) ax7
+ +      -0.0439 * (normalized) ay7
+ +       0.3869 * (normalized) az7
+ +       0.5003 * (normalized) gx7
+ +      -0.0531 * (normalized) gy7
+ +       0.3126 * (normalized) gz7
+ +       0.0893 * (normalized) ax8
+ +       0.0241 * (normalized) ay8
+ +      -0.0197 * (normalized) az8
+ +       0.1179 * (normalized) gx8
+ +      -0.3585 * (normalized) gy8
+ +       0.0462 * (normalized) gz8
+ +      -0.1929 * (normalized) ax9
+ +       0.2466 * (normalized) ay9
+ +      -0.1737 * (normalized) az9
+ +       0.1516 * (normalized) gx9
+ +      -0.1338 * (normalized) gy9
+ +       0.2484 * (normalized) gz9
+ +      -0.1624 * (normalized) ax10
+ +      -0.008  * (normalized) ay10
+ +       0.1001 * (normalized) az10
+ +      -0.0179 * (normalized) gx10
+ +       0.3158 * (normalized) gy10
+ +       0.2159 * (normalized) gz10
+ +      -0.3017 * (normalized) ax11
+ +      -0.2368 * (normalized) ay11
+ +       0.306  * (normalized) az11
+ +       0.1575 * (normalized) gx11
+ +      -0.0101 * (normalized) gy11
+ +       0.0461 * (normalized) gz11
+ +      -0.0145 * (normalized) ax12
+ +      -0.1164 * (normalized) ay12
+ +       0.1197 * (normalized) az12
+ +       0.0012 * (normalized) gx12
+ +      -0.3915 * (normalized) gy12
+ +      -0.1442 * (normalized) gz12
+ +       0.1124 * (normalized) ax13
+ +       0.0313 * (normalized) ay13
+ +       0.0975 * (normalized) az13
+ +       0.0634 * (normalized) gx13
+ +      -0.3791 * (normalized) gy13
+ +      -0.1488 * (normalized) gz13
+ +       0.0579 * (normalized) ax14
+ +       0.008  * (normalized) ay14
+ +       0.131  * (normalized) az14
+ +       0.1305 * (normalized) gx14
+ +      -0.38   * (normalized) gy14
+ +      -0.1211 * (normalized) gz14
+ -       4.6825
+
+Number of kernel evaluations: 2087 (90.925% cached)
+
+Classifier for classes: rightSwap, downSwap
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2764 * (normalized) ax0
+ +      -0.0217 * (normalized) ay0
+ +      -0.7439 * (normalized) az0
+ +      -0.7478 * (normalized) gx0
+ +      -0.3064 * (normalized) gy0
+ +      -0.1294 * (normalized) gz0
+ +       0.0985 * (normalized) ax1
+ +       0.076  * (normalized) ay1
+ +      -0.8266 * (normalized) az1
+ +      -0.8097 * (normalized) gx1
+ +       0.9273 * (normalized) gy1
+ +       0.1149 * (normalized) gz1
+ +      -0.2605 * (normalized) ax2
+ +       0.0974 * (normalized) ay2
+ +      -0.6923 * (normalized) az2
+ +      -0.196  * (normalized) gx2
+ +       1.1248 * (normalized) gy2
+ +       0.2281 * (normalized) gz2
+ +      -0.1675 * (normalized) ax3
+ +      -0.0763 * (normalized) ay3
+ +      -0.1808 * (normalized) az3
+ +      -0.208  * (normalized) gx3
+ +       1.0374 * (normalized) gy3
+ +       0.0934 * (normalized) gz3
+ +      -0.5498 * (normalized) ax4
+ +       0.1287 * (normalized) ay4
+ +       0.3828 * (normalized) az4
+ +       0.1968 * (normalized) gx4
+ +       1.0901 * (normalized) gy4
+ +      -0.1511 * (normalized) gz4
+ +      -0.5892 * (normalized) ax5
+ +       0.3889 * (normalized) ay5
+ +       0.8384 * (normalized) az5
+ +      -0.2573 * (normalized) gx5
+ +       0.9508 * (normalized) gy5
+ +      -0.0485 * (normalized) gz5
+ +       0.3346 * (normalized) ax6
+ +       0.2205 * (normalized) ay6
+ +       0.5334 * (normalized) az6
+ +       0.265  * (normalized) gx6
+ +       0.0837 * (normalized) gy6
+ +      -0.1029 * (normalized) gz6
+ +      -0.0397 * (normalized) ax7
+ +       0.1549 * (normalized) ay7
+ +       0.2862 * (normalized) az7
+ +       0.2087 * (normalized) gx7
+ +      -0.2739 * (normalized) gy7
+ +       0.0499 * (normalized) gz7
+ +       0.011  * (normalized) ax8
+ +       0.0758 * (normalized) ay8
+ +       0.102  * (normalized) az8
+ +       0.0592 * (normalized) gx8
+ +      -0.3728 * (normalized) gy8
+ +       0.1452 * (normalized) gz8
+ +       0.0119 * (normalized) ax9
+ +       0.1553 * (normalized) ay9
+ +       0.0992 * (normalized) az9
+ +       0.1069 * (normalized) gx9
+ +      -0.3112 * (normalized) gy9
+ +       0.1274 * (normalized) gz9
+ +       0.1034 * (normalized) ax10
+ +       0.2342 * (normalized) ay10
+ +       0.0837 * (normalized) az10
+ +       0.1398 * (normalized) gx10
+ +      -0.2967 * (normalized) gy10
+ +       0.1476 * (normalized) gz10
+ +       0.1283 * (normalized) ax11
+ +       0.2049 * (normalized) ay11
+ +       0.0927 * (normalized) az11
+ +       0.0923 * (normalized) gx11
+ +      -0.3027 * (normalized) gy11
+ +       0.1468 * (normalized) gz11
+ +       0.084  * (normalized) ax12
+ +       0.1469 * (normalized) ay12
+ +       0.0547 * (normalized) az12
+ +       0.0232 * (normalized) gx12
+ +      -0.2906 * (normalized) gy12
+ +       0.134  * (normalized) gz12
+ +       0.0971 * (normalized) ax13
+ +       0.0898 * (normalized) ay13
+ +       0.0713 * (normalized) az13
+ +       0.03   * (normalized) gx13
+ +      -0.2864 * (normalized) gy13
+ +       0.105  * (normalized) gz13
+ +       0.1026 * (normalized) ax14
+ +       0.1347 * (normalized) ay14
+ +       0.0835 * (normalized) az14
+ +       0.051  * (normalized) gx14
+ +      -0.2517 * (normalized) gy14
+ +       0.1003 * (normalized) gz14
+ -       2.2219
+
+Number of kernel evaluations: 1922 (84.792% cached)
+
+Classifier for classes: rightSwap, circleCW
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.6993 * (normalized) ax0
+ +       0.5805 * (normalized) ay0
+ +      -0.2958 * (normalized) az0
+ +      -0.92   * (normalized) gx0
+ +       0.4715 * (normalized) gy0
+ +      -0.4769 * (normalized) gz0
+ +      -0.6878 * (normalized) ax1
+ +       0.4521 * (normalized) ay1
+ +      -0.6554 * (normalized) az1
+ +      -0.934  * (normalized) gx1
+ +       0.9095 * (normalized) gy1
+ +       0.0979 * (normalized) gz1
+ +      -0.3968 * (normalized) ax2
+ +       0.5671 * (normalized) ay2
+ +      -0.1474 * (normalized) az2
+ +      -0.4975 * (normalized) gx2
+ +       0.948  * (normalized) gy2
+ +       0.1894 * (normalized) gz2
+ +      -0.4709 * (normalized) ax3
+ +       0.5156 * (normalized) ay3
+ +      -0.1129 * (normalized) az3
+ +      -0.1737 * (normalized) gx3
+ +       0.531  * (normalized) gy3
+ +       0.0453 * (normalized) gz3
+ +      -0.3984 * (normalized) ax4
+ +       0.5787 * (normalized) ay4
+ +       0.1929 * (normalized) az4
+ +      -0.0171 * (normalized) gx4
+ +       0.6487 * (normalized) gy4
+ +       0.0742 * (normalized) gz4
+ +      -0.653  * (normalized) ax5
+ +       0.6021 * (normalized) ay5
+ +       0.0906 * (normalized) az5
+ +      -0.5304 * (normalized) gx5
+ +       0.4972 * (normalized) gy5
+ +      -0.0846 * (normalized) gz5
+ +      -0.6489 * (normalized) ax6
+ +       0.486  * (normalized) ay6
+ +      -0.0046 * (normalized) az6
+ +      -0.3709 * (normalized) gx6
+ +       0.3753 * (normalized) gy6
+ +      -0.2368 * (normalized) gz6
+ +      -0.4859 * (normalized) ax7
+ +       0.4835 * (normalized) ay7
+ +       0.1889 * (normalized) az7
+ +      -0.2142 * (normalized) gx7
+ +      -0.0197 * (normalized) gy7
+ +       0.1059 * (normalized) gz7
+ +      -0.2696 * (normalized) ax8
+ +       0.4006 * (normalized) ay8
+ +      -0.0453 * (normalized) az8
+ +      -0.172  * (normalized) gx8
+ +      -0.1417 * (normalized) gy8
+ +       0.2614 * (normalized) gz8
+ +      -0.0013 * (normalized) ax9
+ +       0.1237 * (normalized) ay9
+ +      -0.2088 * (normalized) az9
+ +      -0.0044 * (normalized) gx9
+ +      -0.1177 * (normalized) gy9
+ +       0.2052 * (normalized) gz9
+ +       0.0698 * (normalized) ax10
+ +       0.1265 * (normalized) ay10
+ +      -0.1527 * (normalized) az10
+ +       0.0162 * (normalized) gx10
+ +      -0.0687 * (normalized) gy10
+ +       0.0185 * (normalized) gz10
+ +       0.0636 * (normalized) ax11
+ +       0.2738 * (normalized) ay11
+ +      -0.0809 * (normalized) az11
+ +      -0.0184 * (normalized) gx11
+ +       0.004  * (normalized) gy11
+ +      -0.0252 * (normalized) gz11
+ +       0.0332 * (normalized) ax12
+ +       0.3808 * (normalized) ay12
+ +       0.0118 * (normalized) az12
+ +       0.0016 * (normalized) gx12
+ +       0.0212 * (normalized) gy12
+ +       0.0275 * (normalized) gz12
+ +       0.0733 * (normalized) ax13
+ +       0.4112 * (normalized) ay13
+ +       0.0376 * (normalized) az13
+ +      -0.0336 * (normalized) gx13
+ +      -0.0754 * (normalized) gy13
+ +       0.0098 * (normalized) gz13
+ +       0.0941 * (normalized) ax14
+ +       0.4468 * (normalized) ay14
+ +      -0.0249 * (normalized) az14
+ +      -0.0078 * (normalized) gx14
+ +      -0.0539 * (normalized) gy14
+ +       0.0289 * (normalized) gz14
+ -       0.4068
+
+Number of kernel evaluations: 3826 (86.194% cached)
+
+Classifier for classes: rightSwap, circleCCW
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.8885 * (normalized) ax0
+ +      -0.4389 * (normalized) ay0
+ +       0.0908 * (normalized) az0
+ +      -0.0459 * (normalized) gx0
+ +      -0.0169 * (normalized) gy0
+ +      -1.161  * (normalized) gz0
+ +      -0.5641 * (normalized) ax1
+ +       0.2507 * (normalized) ay1
+ +      -0.3776 * (normalized) az1
+ +      -0.1846 * (normalized) gx1
+ +       0.6469 * (normalized) gy1
+ +      -0.4488 * (normalized) gz1
+ +      -0.6222 * (normalized) ax2
+ +       0.2495 * (normalized) ay2
+ +       0.0782 * (normalized) az2
+ +       0.1431 * (normalized) gx2
+ +       0.6045 * (normalized) gy2
+ +       0.0442 * (normalized) gz2
+ +      -0.5732 * (normalized) ax3
+ +       0.3531 * (normalized) ay3
+ +       0.1629 * (normalized) az3
+ +       0.3206 * (normalized) gx3
+ +       0.3868 * (normalized) gy3
+ +       0.3762 * (normalized) gz3
+ +      -0.4395 * (normalized) ax4
+ +       0.1609 * (normalized) ay4
+ +      -0.1683 * (normalized) az4
+ +       0.2786 * (normalized) gx4
+ +       0.4326 * (normalized) gy4
+ +       0.3069 * (normalized) gz4
+ +      -0.9878 * (normalized) ax5
+ +       0.2378 * (normalized) ay5
+ +       0.0092 * (normalized) az5
+ +       0.3037 * (normalized) gx5
+ +       0.4958 * (normalized) gy5
+ +       0.1663 * (normalized) gz5
+ +      -1.2098 * (normalized) ax6
+ +       0.2449 * (normalized) ay6
+ +      -0.1341 * (normalized) az6
+ +       0.6374 * (normalized) gx6
+ +       0.5254 * (normalized) gy6
+ +       0.2146 * (normalized) gz6
+ +      -0.7459 * (normalized) ax7
+ +       0.1927 * (normalized) ay7
+ +       0.3376 * (normalized) az7
+ +       0.7747 * (normalized) gx7
+ +       0.0059 * (normalized) gy7
+ +       0.5503 * (normalized) gz7
+ +      -0.5018 * (normalized) ax8
+ +      -0.3801 * (normalized) ay8
+ +       0.4839 * (normalized) az8
+ +       0.3078 * (normalized) gx8
+ +       0.28   * (normalized) gy8
+ +       0.3886 * (normalized) gz8
+ +      -0.1413 * (normalized) ax9
+ +      -0.1054 * (normalized) ay9
+ +       0.4702 * (normalized) az9
+ +       0.1588 * (normalized) gx9
+ +       0.0554 * (normalized) gy9
+ +       0.1028 * (normalized) gz9
+ +      -0.0522 * (normalized) ax10
+ +      -0.2325 * (normalized) ay10
+ +       0.2398 * (normalized) az10
+ +       0.2003 * (normalized) gx10
+ +      -0.1514 * (normalized) gy10
+ +      -0.0117 * (normalized) gz10
+ +      -0.0438 * (normalized) ax11
+ +      -0.2418 * (normalized) ay11
+ +       0.1402 * (normalized) az11
+ +       0.1107 * (normalized) gx11
+ +      -0.1326 * (normalized) gy11
+ +      -0.0659 * (normalized) gz11
+ +       0.0074 * (normalized) ax12
+ +      -0.1116 * (normalized) ay12
+ +       0.2073 * (normalized) az12
+ +       0.0665 * (normalized) gx12
+ +      -0.131  * (normalized) gy12
+ +      -0.0332 * (normalized) gz12
+ +       0.031  * (normalized) ax13
+ +      -0.0155 * (normalized) ay13
+ +       0.1853 * (normalized) az13
+ +       0.0726 * (normalized) gx13
+ +      -0.1866 * (normalized) gy13
+ +      -0.0566 * (normalized) gz13
+ +       0.0237 * (normalized) ax14
+ +      -0.0433 * (normalized) ay14
+ +       0.1138 * (normalized) az14
+ +       0.0542 * (normalized) gx14
+ +      -0.1891 * (normalized) gy14
+ +      -0.0188 * (normalized) gz14
+ +       0.5676
+
+Number of kernel evaluations: 3174 (87.461% cached)
+
+Classifier for classes: rightSwap, noInteraction
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4244 * (normalized) ax0
+ +       0.263  * (normalized) ay0
+ +      -0.2331 * (normalized) az0
+ +      -0.5738 * (normalized) gx0
+ +      -0.4446 * (normalized) gy0
+ +      -0.4625 * (normalized) gz0
+ +       1.0357 * (normalized) ax1
+ +       0.3299 * (normalized) ay1
+ +      -0.2376 * (normalized) az1
+ +      -2.1237 * (normalized) gx1
+ +       0.515  * (normalized) gy1
+ +      -0.0803 * (normalized) gz1
+ +       0.9389 * (normalized) ax2
+ +       0.5801 * (normalized) ay2
+ +      -0.8542 * (normalized) az2
+ +      -0.3236 * (normalized) gx2
+ +       1.6053 * (normalized) gy2
+ +       1.0106 * (normalized) gz2
+ +       1.4823 * (normalized) ax3
+ +       0.1    * (normalized) ay3
+ +       0.4121 * (normalized) az3
+ +      -0.718  * (normalized) gx3
+ +       2.2821 * (normalized) gy3
+ +       0.451  * (normalized) gz3
+ +       0.1679 * (normalized) ax4
+ +      -0.112  * (normalized) ay4
+ +       1.2216 * (normalized) az4
+ +       0.3978 * (normalized) gx4
+ +       1.7843 * (normalized) gy4
+ +       0.0605 * (normalized) gz4
+ +       0.873  * (normalized) ax5
+ +      -0.034  * (normalized) ay5
+ +       1.7342 * (normalized) az5
+ +       0.2589 * (normalized) gx5
+ +       0.491  * (normalized) gy5
+ +      -0.3217 * (normalized) gz5
+ +       0.0596 * (normalized) ax6
+ +       0.1944 * (normalized) ay6
+ +       0.0868 * (normalized) az6
+ +       0.3847 * (normalized) gx6
+ +      -0.2911 * (normalized) gy6
+ +      -0.4597 * (normalized) gz6
+ +      -0.5044 * (normalized) ax7
+ +       0.2779 * (normalized) ay7
+ +      -0.1784 * (normalized) az7
+ +       0.1306 * (normalized) gx7
+ +      -0.5046 * (normalized) gy7
+ +      -0.0635 * (normalized) gz7
+ +      -0.8279 * (normalized) ax8
+ +       0.172  * (normalized) ay8
+ +      -0.303  * (normalized) az8
+ +      -0.1152 * (normalized) gx8
+ +      -0.0914 * (normalized) gy8
+ +       0.051  * (normalized) gz8
+ +      -0.6372 * (normalized) ax9
+ +      -0.1416 * (normalized) ay9
+ +      -0.3317 * (normalized) az9
+ +      -0.0708 * (normalized) gx9
+ +      -0.1613 * (normalized) gy9
+ +      -0.173  * (normalized) gz9
+ +      -0.2115 * (normalized) ax10
+ +       0.1086 * (normalized) ay10
+ +      -0.2023 * (normalized) az10
+ +      -0.3916 * (normalized) gx10
+ +      -0.2499 * (normalized) gy10
+ +      -0.1056 * (normalized) gz10
+ +      -0.1137 * (normalized) ax11
+ +       0.2185 * (normalized) ay11
+ +       0.0632 * (normalized) az11
+ +      -0.0106 * (normalized) gx11
+ +      -0.2478 * (normalized) gy11
+ +       0.1898 * (normalized) gz11
+ +      -0.4999 * (normalized) ax12
+ +       0.3669 * (normalized) ay12
+ +       0.1579 * (normalized) az12
+ +      -0.2455 * (normalized) gx12
+ +      -0.1146 * (normalized) gy12
+ +       0.1533 * (normalized) gz12
+ +      -0.7337 * (normalized) ax13
+ +       0.3778 * (normalized) ay13
+ +       0.3009 * (normalized) az13
+ +      -0.1169 * (normalized) gx13
+ +      -0.1547 * (normalized) gy13
+ +      -0.0425 * (normalized) gz13
+ +      -0.8286 * (normalized) ax14
+ +      -0.1065 * (normalized) ay14
+ +       0.0427 * (normalized) az14
+ +       0.1889 * (normalized) gx14
+ +      -0.229  * (normalized) gy14
+ +       0.0494 * (normalized) gz14
+ -       1.5291
+
+Number of kernel evaluations: 43482 (76.2% cached)
+
+Classifier for classes: upSwap, downSwap
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.6772 * (normalized) ax0
+ +      -0.536  * (normalized) ay0
+ +      -0.2079 * (normalized) az0
+ +      -1.3181 * (normalized) gx0
+ +      -0.5095 * (normalized) gy0
+ +      -0.2465 * (normalized) gz0
+ +      -0.5733 * (normalized) ax1
+ +      -0.4889 * (normalized) ay1
+ +      -0.1579 * (normalized) az1
+ +      -0.921  * (normalized) gx1
+ +      -0.0359 * (normalized) gy1
+ +      -0.9631 * (normalized) gz1
+ +      -0.3569 * (normalized) ax2
+ +      -0.1089 * (normalized) ay2
+ +      -0.1999 * (normalized) az2
+ +      -0.6792 * (normalized) gx2
+ +      -0.2099 * (normalized) gy2
+ +      -1.0126 * (normalized) gz2
+ +       0.121  * (normalized) ax3
+ +      -0.0762 * (normalized) ay3
+ +      -0.0008 * (normalized) az3
+ +      -0.5915 * (normalized) gx3
+ +      -0.1963 * (normalized) gy3
+ +      -1.0439 * (normalized) gz3
+ +      -0.0694 * (normalized) ax4
+ +      -0.1149 * (normalized) ay4
+ +       0.0165 * (normalized) az4
+ +      -0.0512 * (normalized) gx4
+ +       0.2771 * (normalized) gy4
+ +      -0.8476 * (normalized) gz4
+ +      -0.1315 * (normalized) ax5
+ +      -0.0997 * (normalized) ay5
+ +       0.4869 * (normalized) az5
+ +      -0.014  * (normalized) gx5
+ +       0.0178 * (normalized) gy5
+ +      -0.5846 * (normalized) gz5
+ +       0.4399 * (normalized) ax6
+ +       0.5228 * (normalized) ay6
+ +       0.3065 * (normalized) az6
+ +       0.289  * (normalized) gx6
+ +      -0.3964 * (normalized) gy6
+ +      -0.1863 * (normalized) gz6
+ +       0.0883 * (normalized) ax7
+ +       0.123  * (normalized) ay7
+ +      -0.0116 * (normalized) az7
+ +      -0.2749 * (normalized) gx7
+ +      -0.1879 * (normalized) gy7
+ +      -0.0896 * (normalized) gz7
+ +      -0.116  * (normalized) ax8
+ +       0.145  * (normalized) ay8
+ +       0.0853 * (normalized) az8
+ +      -0.0864 * (normalized) gx8
+ +      -0.127  * (normalized) gy8
+ +       0.0596 * (normalized) gz8
+ +       0.1787 * (normalized) ax9
+ +      -0.1859 * (normalized) ay9
+ +       0.2323 * (normalized) az9
+ +       0.0262 * (normalized) gx9
+ +      -0.2536 * (normalized) gy9
+ +      -0.1292 * (normalized) gz9
+ +       0.2634 * (normalized) ax10
+ +       0.2577 * (normalized) ay10
+ +      -0.08   * (normalized) az10
+ +       0.1862 * (normalized) gx10
+ +      -0.6347 * (normalized) gy10
+ +      -0.1457 * (normalized) gz10
+ +       0.4127 * (normalized) ax11
+ +       0.4169 * (normalized) ay11
+ +      -0.2522 * (normalized) az11
+ +       0.1136 * (normalized) gx11
+ +      -0.3193 * (normalized) gy11
+ +       0.0602 * (normalized) gz11
+ +       0.1236 * (normalized) ax12
+ +       0.2276 * (normalized) ay12
+ +      -0.0921 * (normalized) az12
+ +       0.1371 * (normalized) gx12
+ +       0.106  * (normalized) gy12
+ +       0.3028 * (normalized) gz12
+ +       0.0025 * (normalized) ax13
+ +       0.1051 * (normalized) ay13
+ +      -0.0671 * (normalized) az13
+ +       0.0582 * (normalized) gx13
+ +       0.1046 * (normalized) gy13
+ +       0.2866 * (normalized) gz13
+ +       0.0589 * (normalized) ax14
+ +       0.15   * (normalized) ay14
+ +      -0.1059 * (normalized) az14
+ +       0.0069 * (normalized) gx14
+ +       0.1126 * (normalized) gy14
+ +       0.3084 * (normalized) gz14
+ +       4.2952
+
+Number of kernel evaluations: 3071 (82.601% cached)
+
+Classifier for classes: upSwap, circleCW
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.8502 * (normalized) ax0
+ +       0.0164 * (normalized) ay0
+ +       0.0133 * (normalized) az0
+ +      -0.897  * (normalized) gx0
+ +       0.1589 * (normalized) gy0
+ +      -0.5396 * (normalized) gz0
+ +      -0.7221 * (normalized) ax1
+ +       0.2245 * (normalized) ay1
+ +       0.1551 * (normalized) az1
+ +      -0.7102 * (normalized) gx1
+ +      -0.1236 * (normalized) gy1
+ +      -0.5977 * (normalized) gz1
+ +      -0.5631 * (normalized) ax2
+ +       0.3646 * (normalized) ay2
+ +       0.2096 * (normalized) az2
+ +      -0.7431 * (normalized) gx2
+ +      -0.538  * (normalized) gy2
+ +      -0.5352 * (normalized) gz2
+ +      -0.1565 * (normalized) ax3
+ +       0.4379 * (normalized) ay3
+ +       0.0723 * (normalized) az3
+ +      -0.5374 * (normalized) gx3
+ +      -0.4034 * (normalized) gy3
+ +      -0.4299 * (normalized) gz3
+ +      -0.2575 * (normalized) ax4
+ +       0.2616 * (normalized) ay4
+ +      -0.0038 * (normalized) az4
+ +      -0.4449 * (normalized) gx4
+ +      -0.2072 * (normalized) gy4
+ +      -0.235  * (normalized) gz4
+ +      -0.0506 * (normalized) ax5
+ +       0.1258 * (normalized) ay5
+ +      -0.0731 * (normalized) az5
+ +      -0.4603 * (normalized) gx5
+ +      -0.2313 * (normalized) gy5
+ +      -0.1901 * (normalized) gz5
+ +      -0.2471 * (normalized) ax6
+ +       0.4247 * (normalized) ay6
+ +      -0.1145 * (normalized) az6
+ +      -0.2642 * (normalized) gx6
+ +      -0.2753 * (normalized) gy6
+ +      -0.4554 * (normalized) gz6
+ +      -0.1088 * (normalized) ax7
+ +       0.43   * (normalized) ay7
+ +      -0.118  * (normalized) az7
+ +      -0.4342 * (normalized) gx7
+ +      -0.1602 * (normalized) gy7
+ +      -0.1225 * (normalized) gz7
+ +      -0.1809 * (normalized) ax8
+ +       0.0827 * (normalized) ay8
+ +      -0.0801 * (normalized) az8
+ +      -0.2645 * (normalized) gx8
+ +       0.021  * (normalized) gy8
+ +       0.0702 * (normalized) gz8
+ +       0.1506 * (normalized) ax9
+ +      -0.09   * (normalized) ay9
+ +      -0.0202 * (normalized) az9
+ +      -0.1437 * (normalized) gx9
+ +      -0.0288 * (normalized) gy9
+ +      -0.0871 * (normalized) gz9
+ +       0.0999 * (normalized) ax10
+ +       0.1572 * (normalized) ay10
+ +      -0.1376 * (normalized) az10
+ +       0.014  * (normalized) gx10
+ +      -0.268  * (normalized) gy10
+ +      -0.1124 * (normalized) gz10
+ +       0.1941 * (normalized) ax11
+ +       0.2566 * (normalized) ay11
+ +      -0.214  * (normalized) az11
+ +      -0.035  * (normalized) gx11
+ +      -0.019  * (normalized) gy11
+ +      -0.0081 * (normalized) gz11
+ +       0.0167 * (normalized) ax12
+ +       0.2684 * (normalized) ay12
+ +      -0.1099 * (normalized) az12
+ +       0.0373 * (normalized) gx12
+ +       0.2728 * (normalized) gy12
+ +       0.1235 * (normalized) gz12
+ +      -0.0541 * (normalized) ax13
+ +       0.2071 * (normalized) ay13
+ +      -0.0743 * (normalized) az13
+ +       0.0267 * (normalized) gx13
+ +       0.2379 * (normalized) gy13
+ +       0.1189 * (normalized) gz13
+ +      -0.0146 * (normalized) ax14
+ +       0.2065 * (normalized) ay14
+ +      -0.1073 * (normalized) az14
+ +      -0.0466 * (normalized) gx14
+ +       0.2191 * (normalized) gy14
+ +       0.1375 * (normalized) gz14
+ +       4.4799
+
+Number of kernel evaluations: 3166 (82.295% cached)
+
+Classifier for classes: upSwap, circleCCW
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.89   * (normalized) ax0
+ +      -0.3982 * (normalized) ay0
+ +       0.4807 * (normalized) az0
+ +      -0.335  * (normalized) gx0
+ +      -0.3255 * (normalized) gy0
+ +      -0.685  * (normalized) gz0
+ +      -0.6418 * (normalized) ax1
+ +      -0.047  * (normalized) ay1
+ +       0.2081 * (normalized) az1
+ +      -0.5493 * (normalized) gx1
+ +      -0.4593 * (normalized) gy1
+ +      -0.7763 * (normalized) gz1
+ +      -0.6872 * (normalized) ax2
+ +       0.2664 * (normalized) ay2
+ +       0.1623 * (normalized) az2
+ +      -0.5399 * (normalized) gx2
+ +      -0.6888 * (normalized) gy2
+ +      -0.6208 * (normalized) gz2
+ +      -0.327  * (normalized) ax3
+ +      -0.3732 * (normalized) ay3
+ +       0.0021 * (normalized) az3
+ +      -0.2726 * (normalized) gx3
+ +      -0.5867 * (normalized) gy3
+ +      -0.3059 * (normalized) gz3
+ +      -0.4305 * (normalized) ax4
+ +      -0.3775 * (normalized) ay4
+ +      -0.1572 * (normalized) az4
+ +      -0.2254 * (normalized) gx4
+ +      -0.2787 * (normalized) gy4
+ +      -0.2991 * (normalized) gz4
+ +      -0.4972 * (normalized) ax5
+ +      -0.183  * (normalized) ay5
+ +      -0.0395 * (normalized) az5
+ +       0.3165 * (normalized) gx5
+ +      -0.2337 * (normalized) gy5
+ +      -0.3712 * (normalized) gz5
+ +      -0.6842 * (normalized) ax6
+ +       0.223  * (normalized) ay6
+ +      -0.3118 * (normalized) az6
+ +       0.3493 * (normalized) gx6
+ +      -0.1832 * (normalized) gy6
+ +      -0.3771 * (normalized) gz6
+ +      -0.4251 * (normalized) ax7
+ +       0.2049 * (normalized) ay7
+ +       0.0181 * (normalized) az7
+ +       0.1385 * (normalized) gx7
+ +      -0.0719 * (normalized) gy7
+ +      -0.0136 * (normalized) gz7
+ +      -0.3258 * (normalized) ax8
+ +      -0.2834 * (normalized) ay8
+ +       0.2481 * (normalized) az8
+ +       0.1592 * (normalized) gx8
+ +       0.3249 * (normalized) gy8
+ +       0.3293 * (normalized) gz8
+ +      -0.0677 * (normalized) ax9
+ +      -0.2593 * (normalized) ay9
+ +       0.3929 * (normalized) az9
+ +       0.0565 * (normalized) gx9
+ +       0.0283 * (normalized) gy9
+ +      -0.0305 * (normalized) gz9
+ +       0.0256 * (normalized) ax10
+ +      -0.1401 * (normalized) ay10
+ +       0.1044 * (normalized) az10
+ +       0.2457 * (normalized) gx10
+ +      -0.4312 * (normalized) gy10
+ +      -0.1256 * (normalized) gz10
+ +       0.1579 * (normalized) ax11
+ +       0.1033 * (normalized) ay11
+ +      -0.0818 * (normalized) az11
+ +       0.1051 * (normalized) gx11
+ +      -0.1679 * (normalized) gy11
+ +      -0.0935 * (normalized) gz11
+ +      -0.0094 * (normalized) ax12
+ +       0.0387 * (normalized) ay12
+ +       0.0659 * (normalized) az12
+ +       0.1024 * (normalized) gx12
+ +       0.1556 * (normalized) gy12
+ +       0.123  * (normalized) gz12
+ +      -0.0923 * (normalized) ax13
+ +      -0.0048 * (normalized) ay13
+ +       0.0214 * (normalized) az13
+ +       0.0336 * (normalized) gx13
+ +       0.1019 * (normalized) gy13
+ +       0.121  * (normalized) gz13
+ +      -0.0919 * (normalized) ax14
+ +      -0.0302 * (normalized) ay14
+ +      -0.0401 * (normalized) az14
+ +      -0.0185 * (normalized) gx14
+ +       0.1191 * (normalized) gy14
+ +       0.1485 * (normalized) gz14
+ +       6.1968
+
+Number of kernel evaluations: 1686 (88.091% cached)
+
+Classifier for classes: upSwap, noInteraction
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.7191 * (normalized) ax0
+ +      -0.3541 * (normalized) ay0
+ +       0.1352 * (normalized) az0
+ +      -1.8293 * (normalized) gx0
+ +      -0.3892 * (normalized) gy0
+ +       0.0403 * (normalized) gz0
+ +      -0.2684 * (normalized) ax1
+ +      -0.368  * (normalized) ay1
+ +       0.5405 * (normalized) az1
+ +      -1.5121 * (normalized) gx1
+ +      -0.6852 * (normalized) gy1
+ +      -0.2376 * (normalized) gz1
+ +       0.597  * (normalized) ax2
+ +      -0.2472 * (normalized) ay2
+ +       0.7534 * (normalized) az2
+ +      -0.821  * (normalized) gx2
+ +      -1.1802 * (normalized) gy2
+ +      -0.5016 * (normalized) gz2
+ +       0.9157 * (normalized) ax3
+ +      -0.2134 * (normalized) ay3
+ +       0.5945 * (normalized) az3
+ +      -0.4886 * (normalized) gx3
+ +      -0.8821 * (normalized) gy3
+ +      -0.5369 * (normalized) gz3
+ +       0.5585 * (normalized) ax4
+ +      -0.1461 * (normalized) ay4
+ +       0.6547 * (normalized) az4
+ +      -0.0247 * (normalized) gx4
+ +      -0.4735 * (normalized) gy4
+ +      -0.4109 * (normalized) gz4
+ +       0.7973 * (normalized) ax5
+ +      -0.2617 * (normalized) ay5
+ +       0.4792 * (normalized) az5
+ +       0.1468 * (normalized) gx5
+ +      -0.2251 * (normalized) gy5
+ +      -0.2105 * (normalized) gz5
+ +      -0.0682 * (normalized) ax6
+ +       0.066  * (normalized) ay6
+ +       0.1727 * (normalized) az6
+ +       0.3716 * (normalized) gx6
+ +      -0.0262 * (normalized) gy6
+ +       0.2283 * (normalized) gz6
+ +      -0.2217 * (normalized) ax7
+ +      -0.0694 * (normalized) ay7
+ +      -0.0429 * (normalized) az7
+ +      -0.2891 * (normalized) gx7
+ +      -0.2018 * (normalized) gy7
+ +       0.1142 * (normalized) gz7
+ +      -0.3377 * (normalized) ax8
+ +      -0.1769 * (normalized) ay8
+ +      -0.1345 * (normalized) az8
+ +      -0.1479 * (normalized) gx8
+ +      -0.2119 * (normalized) gy8
+ +       0.2308 * (normalized) gz8
+ +       0.1169 * (normalized) ax9
+ +      -0.2158 * (normalized) ay9
+ +       0.1575 * (normalized) az9
+ +       0.0656 * (normalized) gx9
+ +      -0.2347 * (normalized) gy9
+ +      -0.1122 * (normalized) gz9
+ +       0.0443 * (normalized) ax10
+ +       0.3035 * (normalized) ay10
+ +      -0.0111 * (normalized) az10
+ +       0.1823 * (normalized) gx10
+ +      -0.5353 * (normalized) gy10
+ +      -0.1872 * (normalized) gz10
+ +       0.1158 * (normalized) ax11
+ +       0.2443 * (normalized) ay11
+ +      -0.0103 * (normalized) az11
+ +      -0.0387 * (normalized) gx11
+ +      -0.168  * (normalized) gy11
+ +      -0.0224 * (normalized) gz11
+ +      -0.3303 * (normalized) ax12
+ +      -0.0374 * (normalized) ay12
+ +       0.213  * (normalized) az12
+ +       0.1756 * (normalized) gx12
+ +      -0.0091 * (normalized) gy12
+ +       0.0922 * (normalized) gz12
+ +      -0.4523 * (normalized) ax13
+ +       0.1885 * (normalized) ay13
+ +       0.1502 * (normalized) az13
+ +       0.0653 * (normalized) gx13
+ +      -0.2639 * (normalized) gy13
+ +       0.1493 * (normalized) gz13
+ +      -0.4387 * (normalized) ax14
+ +       0.5135 * (normalized) ay14
+ +       0.0233 * (normalized) az14
+ +      -0.2512 * (normalized) gx14
+ +      -0.4774 * (normalized) gy14
+ +       0.3041 * (normalized) gz14
+ +       4.1821
+
+Number of kernel evaluations: 15344 (75.272% cached)
+
+Classifier for classes: downSwap, circleCW
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.8162 * (normalized) ax0
+ +       0.6876 * (normalized) ay0
+ +       0.5729 * (normalized) az0
+ +      -0.3754 * (normalized) gx0
+ +       0.5481 * (normalized) gy0
+ +      -0.3856 * (normalized) gz0
+ +      -1.1113 * (normalized) ax1
+ +       0.4339 * (normalized) ay1
+ +      -0.0632 * (normalized) az1
+ +      -0.106  * (normalized) gx1
+ +      -0.3972 * (normalized) gy1
+ +      -0.5159 * (normalized) gz1
+ +      -0.1652 * (normalized) ax2
+ +       0.5772 * (normalized) ay2
+ +       0.1306 * (normalized) az2
+ +      -0.4911 * (normalized) gx2
+ +      -0.9492 * (normalized) gy2
+ +      -0.1439 * (normalized) gz2
+ +      -0.5284 * (normalized) ax3
+ +       1.0318 * (normalized) ay3
+ +      -0.2019 * (normalized) az3
+ +      -0.454  * (normalized) gx3
+ +      -0.8007 * (normalized) gy3
+ +       0.1577 * (normalized) gz3
+ +      -0.1724 * (normalized) ax4
+ +       0.2733 * (normalized) ay4
+ +      -0.2518 * (normalized) az4
+ +      -0.2503 * (normalized) gx4
+ +      -0.8183 * (normalized) gy4
+ +       0.5485 * (normalized) gz4
+ +       0.0149 * (normalized) ax5
+ +       0.6931 * (normalized) ay5
+ +      -0.6686 * (normalized) az5
+ +      -0.7874 * (normalized) gx5
+ +      -0.35   * (normalized) gy5
+ +       0.2389 * (normalized) gz5
+ +      -1.0165 * (normalized) ax6
+ +       0.3083 * (normalized) ay6
+ +      -0.8872 * (normalized) az6
+ +      -0.9824 * (normalized) gx6
+ +       0.34   * (normalized) gy6
+ +      -0.0992 * (normalized) gz6
+ +      -0.5383 * (normalized) ax7
+ +       0.5168 * (normalized) ay7
+ +      -0.2767 * (normalized) az7
+ +      -0.565  * (normalized) gx7
+ +       0.2929 * (normalized) gy7
+ +       0.1952 * (normalized) gz7
+ +      -0.3205 * (normalized) ax8
+ +       0.08   * (normalized) ay8
+ +      -0.2462 * (normalized) az8
+ +      -0.4079 * (normalized) gx8
+ +       0.4326 * (normalized) gy8
+ +       0.1048 * (normalized) gz8
+ +      -0.1065 * (normalized) ax9
+ +      -0.0259 * (normalized) ay9
+ +      -0.3804 * (normalized) az9
+ +      -0.2003 * (normalized) gx9
+ +       0.2827 * (normalized) gy9
+ +      -0.0154 * (normalized) gz9
+ +      -0.0863 * (normalized) ax10
+ +       0.0764 * (normalized) ay10
+ +      -0.303  * (normalized) az10
+ +      -0.1146 * (normalized) gx10
+ +       0.3308 * (normalized) gy10
+ +      -0.2346 * (normalized) gz10
+ +      -0.0244 * (normalized) ax11
+ +       0.0292 * (normalized) ay11
+ +      -0.2357 * (normalized) az11
+ +      -0.0754 * (normalized) gx11
+ +       0.4686 * (normalized) gy11
+ +      -0.2734 * (normalized) gz11
+ +      -0.0402 * (normalized) ax12
+ +       0.2829 * (normalized) ay12
+ +      -0.1583 * (normalized) az12
+ +      -0.1032 * (normalized) gx12
+ +       0.5333 * (normalized) gy12
+ +      -0.3478 * (normalized) gz12
+ +      -0.0656 * (normalized) ax13
+ +       0.3272 * (normalized) ay13
+ +      -0.0948 * (normalized) az13
+ +      -0.0383 * (normalized) gx13
+ +       0.5572 * (normalized) gy13
+ +      -0.3573 * (normalized) gz13
+ +      -0.0413 * (normalized) ax14
+ +       0.4061 * (normalized) ay14
+ +      -0.136  * (normalized) az14
+ +      -0.0003 * (normalized) gx14
+ +       0.4705 * (normalized) gy14
+ +      -0.2761 * (normalized) gz14
+ +       4.5121
+
+Number of kernel evaluations: 2354 (84.518% cached)
+
+Classifier for classes: downSwap, circleCCW
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5406 * (normalized) ax0
+ +      -0.2505 * (normalized) ay0
+ +       0.8313 * (normalized) az0
+ +       0.578  * (normalized) gx0
+ +      -0.08   * (normalized) gy0
+ +      -0.7794 * (normalized) gz0
+ +      -0.2138 * (normalized) ax1
+ +       0.0963 * (normalized) ay1
+ +       0.2014 * (normalized) az1
+ +       0.6059 * (normalized) gx1
+ +      -0.6223 * (normalized) gy1
+ +      -0.1689 * (normalized) gz1
+ +      -0.1065 * (normalized) ax2
+ +      -0.0076 * (normalized) ay2
+ +       0.1728 * (normalized) az2
+ +       0.1726 * (normalized) gx2
+ +      -0.6621 * (normalized) gy2
+ +      -0.0105 * (normalized) gz2
+ +      -0.4647 * (normalized) ax3
+ +       0.2255 * (normalized) ay3
+ +       0.2349 * (normalized) az3
+ +       0.2117 * (normalized) gx3
+ +      -0.5303 * (normalized) gy3
+ +       0.2572 * (normalized) gz3
+ +      -0.3782 * (normalized) ax4
+ +       0.0608 * (normalized) ay4
+ +      -0.0847 * (normalized) az4
+ +       0.347  * (normalized) gx4
+ +      -0.793  * (normalized) gy4
+ +       0.184  * (normalized) gz4
+ +      -0.2289 * (normalized) ax5
+ +       0.0259 * (normalized) ay5
+ +      -0.5962 * (normalized) az5
+ +       0.3275 * (normalized) gx5
+ +      -0.4649 * (normalized) gy5
+ +       0.1153 * (normalized) gz5
+ +      -1.2604 * (normalized) ax6
+ +       0.0142 * (normalized) ay6
+ +      -0.7181 * (normalized) az6
+ +       0.1952 * (normalized) gx6
+ +       0.2534 * (normalized) gy6
+ +       0.0605 * (normalized) gz6
+ +      -0.8549 * (normalized) ax7
+ +       0.0698 * (normalized) ay7
+ +       0.0595 * (normalized) az7
+ +       0.4579 * (normalized) gx7
+ +       0.2283 * (normalized) gy7
+ +       0.3909 * (normalized) gz7
+ +      -0.2117 * (normalized) ax8
+ +      -0.5124 * (normalized) ay8
+ +       0.1755 * (normalized) az8
+ +       0.2536 * (normalized) gx8
+ +       0.5387 * (normalized) gy8
+ +       0.3331 * (normalized) gz8
+ +      -0.173  * (normalized) ax9
+ +      -0.1605 * (normalized) ay9
+ +       0.3136 * (normalized) az9
+ +       0.1297 * (normalized) gx9
+ +       0.3388 * (normalized) gy9
+ +      -0.0388 * (normalized) gz9
+ +      -0.1512 * (normalized) ax10
+ +      -0.3413 * (normalized) ay10
+ +       0.1867 * (normalized) az10
+ +       0.0815 * (normalized) gx10
+ +       0.195  * (normalized) gy10
+ +      -0.146  * (normalized) gz10
+ +      -0.1004 * (normalized) ax11
+ +      -0.3215 * (normalized) ay11
+ +       0.0753 * (normalized) az11
+ +       0.0832 * (normalized) gx11
+ +       0.1989 * (normalized) gy11
+ +      -0.2141 * (normalized) gz11
+ +      -0.0465 * (normalized) ax12
+ +      -0.2743 * (normalized) ay12
+ +       0.0859 * (normalized) az12
+ +       0.0079 * (normalized) gx12
+ +       0.1857 * (normalized) gy12
+ +      -0.2015 * (normalized) gz12
+ +      -0.0648 * (normalized) ax13
+ +      -0.1266 * (normalized) ay13
+ +       0.0664 * (normalized) az13
+ +       0.0321 * (normalized) gx13
+ +       0.1452 * (normalized) gy13
+ +      -0.202  * (normalized) gz13
+ +      -0.104  * (normalized) ax14
+ +      -0.1299 * (normalized) ay14
+ +       0.037  * (normalized) az14
+ +       0.0302 * (normalized) gx14
+ +       0.1175 * (normalized) gy14
+ +      -0.131  * (normalized) gz14
+ +       2.9911
+
+Number of kernel evaluations: 2236 (85.679% cached)
+
+Classifier for classes: downSwap, noInteraction
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.7799 * (normalized) ax0
+ +       0.0282 * (normalized) ay0
+ +      -0.0862 * (normalized) az0
+ +       0.4294 * (normalized) gx0
+ +       1.3317 * (normalized) gy0
+ +      -0.4481 * (normalized) gz0
+ +       0.9641 * (normalized) ax1
+ +       0.3592 * (normalized) ay1
+ +       1.3831 * (normalized) az1
+ +       0.5814 * (normalized) gx1
+ +       0.0254 * (normalized) gy1
+ +       0.3062 * (normalized) gz1
+ +       1.6168 * (normalized) ax2
+ +      -0.3874 * (normalized) ay2
+ +       1.6793 * (normalized) az2
+ +       0.9371 * (normalized) gx2
+ +      -1.26   * (normalized) gy2
+ +       0.5566 * (normalized) gz2
+ +       0.9057 * (normalized) ax3
+ +       0.3588 * (normalized) ay3
+ +       1.1096 * (normalized) az3
+ +       0.1542 * (normalized) gx3
+ +      -0.854  * (normalized) gy3
+ +       0.4103 * (normalized) gz3
+ +       0.9372 * (normalized) ax4
+ +      -1.0697 * (normalized) ay4
+ +       0.3799 * (normalized) az4
+ +      -0.3193 * (normalized) gx4
+ +      -0.8694 * (normalized) gy4
+ +       0.2779 * (normalized) gz4
+ +       0.5872 * (normalized) ax5
+ +      -0.8669 * (normalized) ay5
+ +      -0.4034 * (normalized) az5
+ +       0.0237 * (normalized) gx5
+ +       0.0168 * (normalized) gy5
+ +      -0.3782 * (normalized) gz5
+ +      -0.2831 * (normalized) ax6
+ +      -0.4078 * (normalized) ay6
+ +      -0.1157 * (normalized) az6
+ +       0.0092 * (normalized) gx6
+ +       0.1957 * (normalized) gy6
+ +      -0.371  * (normalized) gz6
+ +       0.1312 * (normalized) ax7
+ +       0.1097 * (normalized) ay7
+ +       0.1681 * (normalized) az7
+ +      -0.047  * (normalized) gx7
+ +      -0.0431 * (normalized) gy7
+ +      -0.069  * (normalized) gz7
+ +      -0.0316 * (normalized) ax8
+ +      -0.0485 * (normalized) ay8
+ +       0.0222 * (normalized) az8
+ +      -0.0937 * (normalized) gx8
+ +      -0.0573 * (normalized) gy8
+ +       0.1419 * (normalized) gz8
+ +      -0.1674 * (normalized) ax9
+ +      -0.1069 * (normalized) ay9
+ +      -0.011  * (normalized) az9
+ +       0.0383 * (normalized) gx9
+ +       0.0192 * (normalized) gy9
+ +       0.3783 * (normalized) gz9
+ +      -0.4744 * (normalized) ax10
+ +      -0.2415 * (normalized) ay10
+ +       0.3365 * (normalized) az10
+ +      -0.0394 * (normalized) gx10
+ +      -0.0071 * (normalized) gy10
+ +       0.2985 * (normalized) gz10
+ +      -0.5454 * (normalized) ax11
+ +      -0.3205 * (normalized) ay11
+ +       0.1826 * (normalized) az11
+ +      -0.1993 * (normalized) gx11
+ +      -0.0423 * (normalized) gy11
+ +       0.0885 * (normalized) gz11
+ +      -0.7213 * (normalized) ax12
+ +      -0.3554 * (normalized) ay12
+ +      -0.0473 * (normalized) az12
+ +      -0.2229 * (normalized) gx12
+ +      -0.1952 * (normalized) gy12
+ +      -0.3531 * (normalized) gz12
+ +      -0.7595 * (normalized) ax13
+ +      -0.0254 * (normalized) ay13
+ +      -0.2644 * (normalized) az13
+ +      -0.102  * (normalized) gx13
+ +      -0.2499 * (normalized) gy13
+ +      -0.296  * (normalized) gz13
+ +      -0.7732 * (normalized) ax14
+ +       0.1086 * (normalized) ay14
+ +      -0.3415 * (normalized) az14
+ +      -0.0307 * (normalized) gx14
+ +      -0.3504 * (normalized) gy14
+ +      -0.1734 * (normalized) gz14
+ -       0.0077
+
+Number of kernel evaluations: 35465 (75.837% cached)
+
+Classifier for classes: circleCW, circleCCW
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0831 * (normalized) ax0
+ +      -0.6045 * (normalized) ay0
+ +       0.6122 * (normalized) az0
+ +       0.9309 * (normalized) gx0
+ +       0.0243 * (normalized) gy0
+ +      -0.5853 * (normalized) gz0
+ +       0.0997 * (normalized) ax1
+ +      -0.2522 * (normalized) ay1
+ +       0.5286 * (normalized) az1
+ +       0.6949 * (normalized) gx1
+ +      -0.2649 * (normalized) gy1
+ +       0.0602 * (normalized) gz1
+ +      -0.1883 * (normalized) ax2
+ +      -0.2815 * (normalized) ay2
+ +       0.2097 * (normalized) az2
+ +       0.7706 * (normalized) gx2
+ +      -0.4076 * (normalized) gy2
+ +      -0.1375 * (normalized) gz2
+ +      -0.2477 * (normalized) ax3
+ +      -0.4223 * (normalized) ay3
+ +       0.065  * (normalized) az3
+ +       0.4331 * (normalized) gx3
+ +      -0.1938 * (normalized) gy3
+ +       0.0683 * (normalized) gz3
+ +      -0.3424 * (normalized) ax4
+ +      -0.364  * (normalized) ay4
+ +      -0.3484 * (normalized) az4
+ +       0.5936 * (normalized) gx4
+ +      -0.1665 * (normalized) gy4
+ +      -0.0108 * (normalized) gz4
+ +      -0.5057 * (normalized) ax5
+ +      -0.5004 * (normalized) ay5
+ +      -0.1591 * (normalized) az5
+ +       1.0732 * (normalized) gx5
+ +      -0.1664 * (normalized) gy5
+ +       0.118  * (normalized) gz5
+ +      -0.4314 * (normalized) ax6
+ +      -0.5039 * (normalized) ay6
+ +      -0.2256 * (normalized) az6
+ +       0.8806 * (normalized) gx6
+ +      -0.0153 * (normalized) gy6
+ +       0.3687 * (normalized) gz6
+ +      -0.393  * (normalized) ax7
+ +      -0.4083 * (normalized) ay7
+ +       0.0829 * (normalized) az7
+ +       0.7424 * (normalized) gx7
+ +       0.1205 * (normalized) gy7
+ +       0.2076 * (normalized) gz7
+ +      -0.0171 * (normalized) ax8
+ +      -0.5574 * (normalized) ay8
+ +       0.341  * (normalized) az8
+ +       0.5929 * (normalized) gx8
+ +       0.4271 * (normalized) gy8
+ +       0.0577 * (normalized) gz8
+ +      -0.0103 * (normalized) ax9
+ +      -0.147  * (normalized) ay9
+ +       0.6459 * (normalized) az9
+ +       0.3698 * (normalized) gx9
+ +       0.243  * (normalized) gy9
+ +      -0.0722 * (normalized) gz9
+ +      -0.0267 * (normalized) ax10
+ +      -0.3213 * (normalized) ay10
+ +       0.5116 * (normalized) az10
+ +       0.2523 * (normalized) gx10
+ +       0.0041 * (normalized) gy10
+ +      -0.0025 * (normalized) gz10
+ +      -0.0943 * (normalized) ax11
+ +      -0.4109 * (normalized) ay11
+ +       0.3032 * (normalized) az11
+ +       0.1326 * (normalized) gx11
+ +      -0.1636 * (normalized) gy11
+ +      -0.0553 * (normalized) gz11
+ +      -0.0321 * (normalized) ax12
+ +      -0.5066 * (normalized) ay12
+ +       0.1981 * (normalized) az12
+ +       0.1195 * (normalized) gx12
+ +      -0.1662 * (normalized) gy12
+ +      -0.0055 * (normalized) gz12
+ +      -0.0184 * (normalized) ax13
+ +      -0.4628 * (normalized) ay13
+ +       0.1456 * (normalized) az13
+ +       0.0555 * (normalized) gx13
+ +      -0.2344 * (normalized) gy13
+ +       0.0101 * (normalized) gz13
+ +      -0.0854 * (normalized) ax14
+ +      -0.485  * (normalized) ay14
+ +       0.1393 * (normalized) az14
+ +       0.0386 * (normalized) gx14
+ +      -0.2094 * (normalized) gy14
+ +       0.0373 * (normalized) gz14
+ +       0.4237
+
+Number of kernel evaluations: 3204 (83.729% cached)
+
+Classifier for classes: circleCW, noInteraction
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8892 * (normalized) ax0
+ +      -0.541  * (normalized) ay0
+ +       0.1494 * (normalized) az0
+ +       0.2443 * (normalized) gx0
+ +      -0.4326 * (normalized) gy0
+ +       0.0161 * (normalized) gz0
+ +       1.6407 * (normalized) ax1
+ +      -0.8066 * (normalized) ay1
+ +       0.4828 * (normalized) az1
+ +       0.2568 * (normalized) gx1
+ +      -0.2521 * (normalized) gy1
+ +       0.4445 * (normalized) gz1
+ +       1.6406 * (normalized) ax2
+ +      -1.1787 * (normalized) ay2
+ +       0.5864 * (normalized) az2
+ +       0.514  * (normalized) gx2
+ +      -0.0903 * (normalized) gy2
+ +       0.0835 * (normalized) gz2
+ +       1.2997 * (normalized) ax3
+ +      -1.0266 * (normalized) ay3
+ +       0.4097 * (normalized) az3
+ +       0.0161 * (normalized) gx3
+ +      -0.1416 * (normalized) gy3
+ +       0.0144 * (normalized) gz3
+ +       0.9375 * (normalized) ax4
+ +      -0.6244 * (normalized) ay4
+ +       0.1219 * (normalized) az4
+ +       0.4628 * (normalized) gx4
+ +       0.1009 * (normalized) gy4
+ +      -0.1304 * (normalized) gz4
+ +       0.947  * (normalized) ax5
+ +      -0.9772 * (normalized) ay5
+ +       0.4309 * (normalized) az5
+ +       0.4484 * (normalized) gx5
+ +       0.1303 * (normalized) gy5
+ +      -0.0171 * (normalized) gz5
+ +       0.6972 * (normalized) ax6
+ +      -0.8755 * (normalized) ay6
+ +       0.2272 * (normalized) az6
+ +       0.4768 * (normalized) gx6
+ +      -0.1596 * (normalized) gy6
+ +       0.1854 * (normalized) gz6
+ +      -0.0162 * (normalized) ax7
+ +      -0.6768 * (normalized) ay7
+ +      -0.0571 * (normalized) az7
+ +      -0.1243 * (normalized) gx7
+ +      -0.129  * (normalized) gy7
+ +      -0.3094 * (normalized) gz7
+ +      -0.0854 * (normalized) ax8
+ +      -0.4631 * (normalized) ay8
+ +      -0.0584 * (normalized) az8
+ +       0.1407 * (normalized) gx8
+ +      -0.2341 * (normalized) gy8
+ +      -0.1525 * (normalized) gz8
+ +      -0.1648 * (normalized) ax9
+ +      -0.3428 * (normalized) ay9
+ +       0.2738 * (normalized) az9
+ +      -0.006  * (normalized) gx9
+ +      -0.0776 * (normalized) gy9
+ +       0.0466 * (normalized) gz9
+ +      -0.2951 * (normalized) ax10
+ +      -0.1924 * (normalized) ay10
+ +       0.17   * (normalized) az10
+ +       0.2174 * (normalized) gx10
+ +      -0.1641 * (normalized) gy10
+ +       0.0628 * (normalized) gz10
+ +      -0.4017 * (normalized) ax11
+ +      -0.3951 * (normalized) ay11
+ +       0.0345 * (normalized) az11
+ +       0.2951 * (normalized) gx11
+ +      -0.3463 * (normalized) gy11
+ +      -0.1534 * (normalized) gz11
+ +      -0.5949 * (normalized) ax12
+ +      -0.3072 * (normalized) ay12
+ +       0.0142 * (normalized) az12
+ +      -0.0237 * (normalized) gx12
+ +      -0.3705 * (normalized) gy12
+ +      -0.2079 * (normalized) gz12
+ +      -0.4844 * (normalized) ax13
+ +      -0.5406 * (normalized) ay13
+ +       0.0715 * (normalized) az13
+ +      -0.1521 * (normalized) gx13
+ +      -0.4005 * (normalized) gy13
+ +      -0.0913 * (normalized) gz13
+ +      -0.6862 * (normalized) ax14
+ +      -0.4034 * (normalized) ay14
+ +       0.0486 * (normalized) az14
+ +       0.0092 * (normalized) gx14
+ +      -0.4413 * (normalized) gy14
+ +      -0.1785 * (normalized) gz14
+ +       0.9081
+
+Number of kernel evaluations: 26158 (80.344% cached)
+
+Classifier for classes: circleCCW, noInteraction
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.077  * (normalized) ax0
+ +       0.5469 * (normalized) ay0
+ +      -0.3305 * (normalized) az0
+ +      -0.5313 * (normalized) gx0
+ +      -0.0226 * (normalized) gy0
+ +       0.5358 * (normalized) gz0
+ +       1.0753 * (normalized) ax1
+ +      -0.2592 * (normalized) ay1
+ +      -0.1557 * (normalized) az1
+ +      -0.4203 * (normalized) gx1
+ +      -0.2143 * (normalized) gy1
+ +       0.6993 * (normalized) gz1
+ +       1.764  * (normalized) ax2
+ +      -0.4454 * (normalized) ay2
+ +      -0.3171 * (normalized) az2
+ +      -0.4246 * (normalized) gx2
+ +       0.4675 * (normalized) gy2
+ +       0.0882 * (normalized) gz2
+ +       1.4993 * (normalized) ax3
+ +      -0.1864 * (normalized) ay3
+ +       0.0325 * (normalized) az3
+ +      -0.3161 * (normalized) gx3
+ +       0.2152 * (normalized) gy3
+ +      -0.2128 * (normalized) gz3
+ +       1.0611 * (normalized) ax4
+ +      -0.1027 * (normalized) ay4
+ +       0.454  * (normalized) az4
+ +      -0.2368 * (normalized) gx4
+ +       0.1828 * (normalized) gy4
+ +       0.0143 * (normalized) gz4
+ +       1.2267 * (normalized) ax5
+ +      -0.0401 * (normalized) ay5
+ +       0.3381 * (normalized) az5
+ +      -0.4613 * (normalized) gx5
+ +       0.1906 * (normalized) gy5
+ +      -0.1604 * (normalized) gz5
+ +       0.8556 * (normalized) ax6
+ +       0.0471 * (normalized) ay6
+ +       0.116  * (normalized) az6
+ +      -0.259  * (normalized) gx6
+ +       0.0597 * (normalized) gy6
+ +       0.0718 * (normalized) gz6
+ +       0.4006 * (normalized) ax7
+ +      -0.0896 * (normalized) ay7
+ +      -0.0632 * (normalized) az7
+ +      -0.3237 * (normalized) gx7
+ +       0.0877 * (normalized) gy7
+ +      -0.132  * (normalized) gz7
+ +      -0.1903 * (normalized) ax8
+ +       0.5615 * (normalized) ay8
+ +      -0.0705 * (normalized) az8
+ +      -0.2819 * (normalized) gx8
+ +      -0.0661 * (normalized) gy8
+ +      -0.2697 * (normalized) gz8
+ +      -0.3252 * (normalized) ax9
+ +       0.0067 * (normalized) ay9
+ +      -0.4286 * (normalized) az9
+ +      -0.2398 * (normalized) gx9
+ +      -0.0952 * (normalized) gy9
+ +       0.0845 * (normalized) gz9
+ +      -0.2727 * (normalized) ax10
+ +       0.0569 * (normalized) ay10
+ +      -0.2726 * (normalized) az10
+ +      -0.243  * (normalized) gx10
+ +      -0.0208 * (normalized) gy10
+ +       0.1234 * (normalized) gz10
+ +      -0.1958 * (normalized) ax11
+ +       0.2133 * (normalized) ay11
+ +      -0.0655 * (normalized) az11
+ +      -0.2137 * (normalized) gx11
+ +      -0.2346 * (normalized) gy11
+ +      -0.0106 * (normalized) gz11
+ +      -0.1644 * (normalized) ax12
+ +       0.2658 * (normalized) ay12
+ +      -0.1073 * (normalized) az12
+ +      -0.1218 * (normalized) gx12
+ +      -0.3283 * (normalized) gy12
+ +      -0.0655 * (normalized) gz12
+ +      -0.2802 * (normalized) ax13
+ +      -0.0401 * (normalized) ay13
+ +      -0.1272 * (normalized) az13
+ +      -0.0013 * (normalized) gx13
+ +      -0.3024 * (normalized) gy13
+ +      -0.1953 * (normalized) gz13
+ +      -0.3268 * (normalized) ax14
+ +      -0.0133 * (normalized) ay14
+ +       0.0548 * (normalized) az14
+ +       0.2116 * (normalized) gx14
+ +      -0.3239 * (normalized) gy14
+ +      -0.2294 * (normalized) gz14
+ -       2.054 
+
+Number of kernel evaluations: 25190 (77.541% cached)
+
+
+
+Time taken to build model: 0.32 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1225               97.6874 %
+Incorrectly Classified Instances        29                2.3126 %
+Kappa statistic                          0.95  
+Mean absolute error                      0.2047
+Root mean squared error                  0.302 
+Relative absolute error                149.4724 %
+Root relative squared error            115.697  %
+Total Number of Instances             1254     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.883    0.001    0.981      0.883    0.930      0.928    0.955     0.885     leftSwap
+                 0.783    0.000    1.000      0.783    0.879      0.880    0.939     0.801     rightSwap
+                 0.950    0.000    1.000      0.950    0.974      0.973    0.975     0.959     upSwap
+                 0.933    0.001    0.982      0.933    0.957      0.956    0.980     0.923     downSwap
+                 0.983    0.000    1.000      0.983    0.992      0.991    1.000     0.997     circleCW
+                 0.983    0.000    1.000      0.983    0.991      0.991    0.988     0.984     circleCCW
+                 1.000    0.075    0.971      1.000    0.985      0.947    0.962     0.971     noInteraction
+Weighted Avg.    0.977    0.054    0.977      0.977    0.976      0.949    0.965     0.958     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   <-- classified as
+  53   0   0   0   0   0   7 |   a = leftSwap
+   0  47   0   0   0   0  13 |   b = rightSwap
+   0   0  57   0   0   0   3 |   c = upSwap
+   1   0   0  56   0   0   3 |   d = downSwap
+   0   0   0   0  59   0   1 |   e = circleCW
+   0   0   0   1   0  58   0 |   f = circleCCW
+   0   0   0   0   0   0 895 |   g = noInteraction
+
